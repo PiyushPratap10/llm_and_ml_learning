@@ -111,4 +111,4 @@ out = generate_text_simple(
 
 
 decoded_text = tokenizer.decode(out.squeeze(0).tolist())
-print(decoded_text)
+# print(decoded_text)
